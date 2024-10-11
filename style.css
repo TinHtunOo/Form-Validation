@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Sen", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #B7B7B7;
+  letter-spacing: 2px;
+}
+
+.container {
+  width: 500px;
+  border-radius: 10px;
+  border: 1px solid #B7B7B7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #B7B7B7;
+  box-shadow: 0 3px 5px 2px rgba(0, 0, 0, 0.732);
+  padding: 20px 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+input,button,h3 {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: "Sen", sans-serif;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+button {
+  margin-top: 20px;
+  background-color: rgb(14, 13, 13);
+  color: #d6d3d3;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  outline: none;
+  filter: brightness(120%);
+  background-color: rgb(29, 27, 27);
+}
+
+h3 {
+  margin-top: 20px;
+   text-align: center;
+}
